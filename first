@@ -9,3 +9,5 @@ export PATH=$HOME/graalvm-ce-java17-22.3.0/bin:$BASE/bin:$PATH
 cd $HOME
 wget https://get.graalvm.org/jdk
 sha256sum jdk
+
+source jdk

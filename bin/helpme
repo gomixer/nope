@@ -1,4 +1,5 @@
 echo <<<TextComesFromHERE
-mvn -Dmaven.test.skip
+unzip demo...
+mvn package -Dmaven.test.skip
 mvn package -Dmaven.test.skip -Dnative
 InputComesFromHERE
