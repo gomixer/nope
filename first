@@ -1,0 +1,9 @@
+$BASE=`pwd`
+
+export GRAALVM_HOME=$HOME/graalvm-ce-java17-22.3.0
+export JAVA_HOME=$HOME/graalvm-ce-java17-22.3.0
+export PATH=$HOME/graalvm-ce-java17-22.3.0/bin:$PATH
+
+cd $HOME
+wget https://get.graalvm.org/jdk
+sha256sum jdk
