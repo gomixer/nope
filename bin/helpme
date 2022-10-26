@@ -1,0 +1,4 @@
+echo <<TextComesFromHERE
+mvn -Dmaven.test.skip
+mvn package -Dmaven.test.skip -Dnative
+InputComesFromHERE
