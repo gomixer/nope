@@ -3,4 +3,9 @@ echo <<<TextComesFromHERE
 unzip demo...
 mvn package -Dmaven.test.skip
 mvn package -Dmaven.test.skip -Dnative
-InputComesFromHERE
+
+or
+
+./mvnw -Dmaven.test.skip package
+./mvnw -Dmaven.test.skip -Pnative package
+TextComesFromHERE
