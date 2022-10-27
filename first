@@ -12,7 +12,7 @@ sha256sum jdk
 
 source jdk
 
-sdk selfupdate force
-source /usr/local/sdkman/bin/sdkman-init.sh
+#sdk selfupdate force
+#source /usr/local/sdkman/bin/sdkman-init.sh
 sdk install java 22.3.0.r17-grlc "/home/startupyx/graalvm-ce-java17-22.3.0"
-sdk install maven
+#sdk install maven
