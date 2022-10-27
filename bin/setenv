@@ -1,0 +1,4 @@
+# only the env settings
+export GRAALVM_HOME=$HOME/graalvm-ce-java17-22.3.0
+export JAVA_HOME=$HOME/graalvm-ce-java17-22.3.0
+export PATH=$HOME/graalvm-ce-java17-22.3.0/bin:$BASE/bin:$PATH
