@@ -1,0 +1,19 @@
+export BASE=`pwd`
+
+chmod +x ./bin/*
+
+export GRAALVM_HOME=$HOME/graalvm-ce-java17-22.3.0
+export JAVA_HOME=$HOME/graalvm-ce-java17-22.3.0
+export PATH=$HOME/graalvm-ce-java17-22.3.0/bin:$BASE/bin:/usr/local/sdkman/candidates/maven/current/bin:$PATH
+
+cd $HOME
+wget https://get.graalvm.org/jdk
+sha256sum jdk
+
+source jdk
+
+git clone https://github.com/graalvm/graalvm-demos.git
+
+cd graalvm-demos/spring-native-image/
+
+cp $BASE/data/pom.xml .
