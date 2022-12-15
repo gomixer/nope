@@ -1,5 +1,6 @@
 cd ~/
-mkdir turbo
+mkdir trb
+cd trb
 npm init -y
 npm i puppeteer
 npm i mocha
