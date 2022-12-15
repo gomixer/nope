@@ -1,5 +1,7 @@
+cd ~/
+mkdir turbo
+npm init -y
 npm i puppeteer
 npm i mocha
 sudo apt-get install -y libgbm-dev
 sudo apt-get install -y libxkbcommon-x11-0
-cd ~/
